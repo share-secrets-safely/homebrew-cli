@@ -1,16 +1,16 @@
 class Sheesy < Formula
   # '---> DO NOT EDIT <--- (this file was generated from ./etc/brew/sheesy.rb.in'
-  version '4.0.7'
+  version '4.0.8'
   desc "share secrets within teams to avoid plain-text secrets from day one"
   homepage "https://github.com/share-secrets-safely/cli"
   depends_on "gnupg"
 
   if OS.mac?
       url "https://github.com/share-secrets-safely/cli/releases/download/#{version}/sy-cli-Darwin-x86_64.tar.gz"
-      sha256 "aac4905d6b9504af1073dc9e11d9dd38cab50f21f5db3a5879b9bdc483eb0f85"
+      sha256 "4f76ea52d94b9afc22e590ac7c8eca906c16f21d00e04fc873e57e3bccdf1534"
   elsif OS.linux?
       url "https://github.com/share-secrets-safely/cli/releases/download/#{version}/sy-cli-Linux-x86_64.tar.gz"
-      sha256 "f574bb0af934992c0abe422d898e37cedf12bc2c7aed53b373c817aab3073137"
+      sha256 "8fd573bbaf19f9059553571077243e030f0dbe33733d843f7f5233314684fd88"
   end
 
   def install
