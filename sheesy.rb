@@ -1,6 +1,6 @@
 class Sheesy < Formula
   # '---> DO NOT EDIT <--- (this file was generated from ./etc/brew/sheesy.rb.in'
-  version '4.0.9'
+  version '4.0.10'
   desc "share secrets within teams to avoid plain-text secrets from day one"
   homepage "https://github.com/share-secrets-safely/cli"
   depends_on "gpgme"
